@@ -9,7 +9,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["var(--font-inter)", "ui-sans-serif", "system-ui", "sans-serif"],
+        display: ["var(--font-archivo)", "var(--font-inter)", "ui-sans-serif", "sans-serif"],
+      },
       colors: {
+        ink: "#14161a",
+        paper: "#f6f5f2",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {
@@ -57,6 +63,7 @@ const config: Config = {
         },
         ctg: {
           orange: "#ffa00e",
+          "orange-dark": "#e08600",
         },
         chart: {
           "1": "hsl(var(--chart-1))",
@@ -82,6 +89,10 @@ const config: Config = {
         sm: "calc(var(--radius) - 4px)",
       },
       keyframes: {
+        marquee: {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-50%)" },
+        },
         "accordion-down": {
           from: {
             height: "0",
@@ -100,6 +111,7 @@ const config: Config = {
         },
       },
       animation: {
+        marquee: "marquee 40s linear infinite",
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
