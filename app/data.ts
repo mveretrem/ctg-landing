@@ -13,7 +13,7 @@ export interface Company {
 }
 
 export const companiesData: Company[] = [
-  { link: "https://www.geappliancesairandwater.com/", src: "/images/logos/ge.png", alt: "GE Appliances Air & Water", tagline: "VRF, PTACs, VTACs, Rooftop Units, Ducted HVAC, Ductless Mini-Splits", w: 512, h: 512 },
+  { link: "https://www.geappliancesairandwater.com/", src: "/images/logos/ge.png", alt: "GE Appliances Air & Water Solutions", tagline: "VRF, PTACs, VTACs, Rooftop Units, Ducted HVAC, Ductless Mini-Splits", w: 720, h: 318 },
   { link: "https://iaq.na.panasonic.com/professional/ventilation-strategy", src: "/images/logos/panasonic.png", alt: "Panasonic", tagline: "Ventilation Fans, ERVs, Air Purification, Smart Controls", w: 600, h: 92 },
   { link: "https://www.hitachiaircon.com/us/products/single-zone-commercial-ac", src: "/images/logos/hitachi.png", alt: "Hitachi", tagline: "Ductless Splits, Mini-VRF Heat Pumps, Air-to-Water Heat Pumps", w: 1175, h: 235 },
   { link: "https://www.friedrich.com/professional/home", src: "/images/logos/friedrich.png", alt: "Friedrich", tagline: "PTACs, VTACs, Ductless Splits, Packaged Heat Pumps", w: 2700, h: 499 },
