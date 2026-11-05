@@ -8,7 +8,7 @@ const archivo = Archivo({ subsets: ["latin"], variable: "--font-archivo" })
 
 export const metadata: Metadata = {
   title: "Construction Technologies Group LLC",
-  description: "HVAC/R equipment and components representative serving Maryland, Virginia and Washington, DC",
+  description: "HVAC equipment and components representative serving Maryland, Virginia and Washington, DC",
 }
 
 export default function RootLayout({

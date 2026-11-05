@@ -19,7 +19,7 @@ export default function Home() {
       id: "commercial",
       icon: Factory,
       eyebrow: "Commercial & Light Commercial",
-      title: "Commercial & light commercial HVAC/R solutions",
+      title: "Commercial & light commercial HVAC solutions",
       body: "We also support mechanical contractors with application and equipment solutions in the commercial and light commercial space:",
       image: "/images/hvac1.jpg",
       imageAlt: "Commercial ductwork and HVAC equipment",
@@ -106,12 +106,8 @@ export default function Home() {
               Maryland · Virginia · Washington, DC
             </p>
             <h1 className="mt-6 font-display text-[2.5rem] font-bold leading-[1.04] tracking-tight text-white sm:text-6xl lg:text-[4.25rem]">
-              Applied HVAC/R representation, <span className="text-ctg-orange">engineered for your project.</span>
+              Providing HVAC Equipment, <span className="text-ctg-orange">engineered for your project.</span>
             </h1>
-            <p className="mt-6 max-w-xl text-base leading-relaxed text-stone-300 sm:text-lg">
-              Construction Technologies Group is an applied representative of manufacturers of HVAC/R equipment and
-              components, serving Maryland, Virginia and Washington, DC.
-            </p>
             <div className="mt-8 flex flex-col gap-3 sm:mt-10 sm:flex-row sm:flex-wrap sm:items-center">
               <a
                 href={`mailto:${EMAIL}?subject=Site%20visit%20request`}
@@ -129,18 +125,6 @@ export default function Home() {
               </a>
             </div>
 
-            <dl className="mt-14 grid max-w-2xl grid-cols-3 divide-x divide-white/10 rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur">
-              {[
-                { k: `${companiesData.length}`, v: "Manufacturer lines" },
-                { k: "2", v: "Core markets" },
-                { k: "3", v: "Jurisdictions served" },
-              ].map((s) => (
-                <div key={s.v} className="px-4 py-4 sm:px-6 sm:py-5">
-                  <dt className="font-display text-2xl font-bold text-white sm:text-3xl">{s.k}</dt>
-                  <dd className="mt-1 text-xs text-stone-400 sm:text-sm">{s.v}</dd>
-                </div>
-              ))}
-            </dl>
           </div>
 
           {/* Talk to a rep */}
@@ -362,7 +346,7 @@ export default function Home() {
           <div>
             <Image src="/images/CTG.jpg" alt="Construction Technologies Group LLC" width={856} height={201} className="h-10 w-auto" />
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-stone-500">
-              Applied representative of manufacturers of HVAC/R equipment and components, serving Maryland, Virginia and Washington, DC.
+              Applied representative of manufacturers of HVAC equipment and components, serving Maryland, Virginia and Washington, DC.
             </p>
           </div>
           <div>

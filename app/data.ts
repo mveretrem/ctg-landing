@@ -24,7 +24,7 @@ export const companiesData: Company[] = [
   { link: "https://www.z-flex.com/", src: "/images/logos/zflex.png", alt: "Z-Flex Venting Systems", tagline: "Venting Systems", w: 174, h: 67 },
   { link: "https://uniclampusa.com/collections/all", src: "/images/logos/uniclamp.png", alt: "Uniclamp", tagline: "Pipe Clamps & Ties", w: 521, h: 272 },
   { link: "https://cerro.com/", src: "/images/logos/cerro.png", alt: "Cerro", tagline: "Copper Tubing & Linesets", w: 217, h: 101 },
-  { link: "https://www.rapidlockingsystem.com/", src: "/images/logos/rls.png", alt: "RLS", tagline: "HVAC/R Press Fittings", w: 369, h: 318 },
+  { link: "https://www.rapidlockingsystem.com/", src: "/images/logos/rls.png", alt: "RLS", tagline: "HVAC Press Fittings", w: 369, h: 318 },
 ];
 
 /**
