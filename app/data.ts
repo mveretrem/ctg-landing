@@ -1,6 +1,8 @@
 export const EMAIL = "solutions@ctgsupply.com"
 export const PHONE_DISPLAY = "(703) 230-0111"
 export const PHONE_TEL = "+17032300111"
+export const ADDRESS_LINES = ["6306 Gravel Ave, Suite D", "Alexandria, VA 22310"]
+export const MAP_URL = "https://www.google.com/maps/search/?api=1&query=6306+Gravel+Ave+Suite+D+Alexandria+VA+22310"
 
 export interface Company {
   link: string;

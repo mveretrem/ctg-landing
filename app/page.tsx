@@ -1,7 +1,7 @@
 import Image from "next/image"
 import { ArrowRight, ArrowUpRight, Building2, Check, Factory, Mail, MapPin, Phone } from "lucide-react"
 import CompanyContainer from "./components/CompanyContainer"
-import { EMAIL, PHONE_DISPLAY, PHONE_TEL, companiesData, logoSize } from "./data"
+import { ADDRESS_LINES, EMAIL, MAP_URL, PHONE_DISPLAY, PHONE_TEL, companiesData, logoSize } from "./data"
 
 export default function Home() {
   const markets = [
@@ -370,10 +370,14 @@ export default function Home() {
                 <Mail className="h-4 w-4 text-ctg-orange-dark" aria-hidden />
                 {EMAIL}
               </a>
-              <span className="inline-flex items-center gap-2">
-                <MapPin className="h-4 w-4 text-ctg-orange-dark" aria-hidden />
-                MD · VA · DC
-              </span>
+              <a href={MAP_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-start gap-2 hover:text-ink">
+                <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-ctg-orange-dark" aria-hidden />
+                <address className="not-italic">
+                  {ADDRESS_LINES[0]}
+                  <br />
+                  {ADDRESS_LINES[1]}
+                </address>
+              </a>
             </div>
           </div>
         </div>
