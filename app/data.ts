@@ -1,6 +1,7 @@
 export const SITE_URL = "https://www.ctgsupply.com"
 export const BRAND = "Construction Technologies Group LLC"
 export const SERVICE_AREA = ["Maryland", "Virginia", "Washington, DC"]
+export const SHOP_URL = "https://shop.ctgsupply.com"
 export const EMAIL = "solutions@ctgsupply.com"
 export const PHONE_DISPLAY = "(703) 230-0111"
 export const PHONE_TEL = "+17032300111"
