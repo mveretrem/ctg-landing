@@ -12,7 +12,7 @@ Verdict at start: crawlable and fast, but the title said "Construction Technolog
 | 6 | COMPOUNDING | No Google Business Profile | Not in local pack | Profile created: Air conditioning system supplier, Suite D, MD/VA/DC, Mon–Fri 8–6 | agent | created; **owner records verification video** |
 | 7 | COMPOUNDING | Manufacturer "find a rep" listings | Highest-trust links a rep can get | Email each manufacturer (drafts in `seo/outreach.md`) | owner | next |
 | 8 | COMPOUNDING | Shop ↔ CTG links | Authority not shared | CTG → shop shipped; shop → CTG after `feat/ndl-accounts-pricing` merges | agent | half done |
-| 9 | COMPOUNDING | Bing Webmaster / Bing Places / Apple | Bing feeds ChatGPT/Copilot; Apple Maps | Webmaster: import from GSC (in progress). Places/Apple: after GBP verification | owner + agent | in progress |
+| 9 | COMPOUNDING | Bing Webmaster / Bing Places / Apple | Bing feeds ChatGPT/Copilot; Apple Maps | Webmaster: imported from GSC, sitemap submitted (done). Places/Apple: after GBP verification | owner + agent | in progress |
 | 10 | COMPOUNDING | Reviews, citations, trade associations | Local ranking + trust | See `seo/outreach.md` | owner | next |
 | 11 | REVENUE | CTA is mailto/tel only | Desktop visitors without a mail client bounce | Project-intake form reusing the FormSubmit setup once Pantry's is proven | agent | later |
 | 12 | REVIEW | Search Console data | See real queries | Re-check titles and line pages | agent | ~2026-12-07 |
