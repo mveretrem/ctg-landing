@@ -223,7 +223,7 @@ export default function Home() {
               <div className="relative">
                 <div className="relative aspect-[4/3] overflow-hidden rounded-3xl">
                   <Image
-                    src="/images/estimating1.png"
+                    src="/images/estimating1.jpg"
                     alt="Engineer reviewing a project on a tablet"
                     fill
                     sizes="(min-width: 1024px) 50vw, 100vw"
