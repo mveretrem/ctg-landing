@@ -50,6 +50,14 @@ const jsonLd = {
     postalCode,
     addressCountry: "US",
   },
+  openingHoursSpecification: [
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      opens: "08:00",
+      closes: "18:00",
+    },
+  ],
   areaServed: SERVICE_AREA.map((name) => ({ "@type": "AdministrativeArea", name })),
   brand: companiesData.map((c) => ({ "@type": "Brand", name: c.alt })),
 }

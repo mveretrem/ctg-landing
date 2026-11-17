@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { Mail, MapPin, Phone } from "lucide-react"
+import { Clock, Mail, MapPin, Phone } from "lucide-react"
 import { ADDRESS_LINES, EMAIL, MAP_URL, PHONE_DISPLAY, PHONE_TEL } from "../data"
 import { navLinks } from "./SiteHeader"
 
@@ -44,6 +44,10 @@ export default function SiteFooter() {
               {ADDRESS_LINES[1]}
             </address>
           </a>
+          <p className="inline-flex items-center gap-2">
+            <Clock className="h-4 w-4 text-ctg-orange-dark" aria-hidden />
+            Mon–Fri, 8am–6pm
+          </p>
         </div>
       </div>
     </div>
